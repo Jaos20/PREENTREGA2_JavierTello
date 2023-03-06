@@ -1,0 +1,331 @@
+$color_1: #ffffffa2;
+$color_2: white;
+$color_3: #eca043;
+$color_4: #f0911e;
+$color_5: black;
+$font-family_1: 'Bebas Neue', cursive;
+$background-color_1: black;
+$background-color_2: #f0911e;
+$background-color_3: beige;
+$background-color_4: #ffffffa2;
+$background-color_5: white;
+$background-color_6: #000000d0;
+$background-color_7: rgba(0, 0, 0, 0.692);
+$background-color_8: rgb(19, 18, 18);
+$background-color_9: rgb(255, 255, 255);
+
+@import "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap";
+@import "mediaqueries";
+/*header*/
+/*index.html*/
+/* ------MUSICA------- */
+/* ------video-principal------- */
+/*-------REDES-------*/
+/* ------USUARIO------- */
+/*lavuelta.html*/
+/*--------------------Bibliografía-------------------*/
+/* ------MEDIA------- */
+/*-------INICIO-------*/
+/*------MUSICA------*/
+/*----------------Bibliografía----------*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: $font-family_1;
+	box-sizing: border-box;
+}
+body {
+	background-color: $background-color_1;
+}
+header {
+	display: none;
+}
+.container-fluid {
+	background-color: $background-color_2;
+}
+.navbar.bg-body-tertiary.fixed-top {
+	padding: 0;
+	h1 {
+		font-size: 1.7rem;
+		font-style: oblique;
+		left: 10px;
+		top: 5px;
+	}
+}
+.navbar-toggler {
+	border: 0;
+}
+.offcanvas-header {
+	background-color: $background-color_2;
+	border-bottom: 5px black solid;
+}
+.offcanvas.offcanvas-end {
+	background-color: $background-color_3;
+	border-left: 5px black solid;
+	border-top: 5px black solid;
+}
+main {
+	text-align: center;
+	background-color: $background-color_3;
+	margin-bottom: 10px;
+}
+.frase {
+	padding: 20px;
+	font-size: 3rem;
+	margin-top: 5rem;
+	padding-bottom: 0;
+}
+.autor-frase {
+	position: relative;
+	font-size: 1.0rem;
+	font-style: italic;
+	background-color: $background-color_2;
+	border-bottom: 4px black solid;
+}
+.conteinerfrase {
+	display: inline-block;
+	margin-bottom: 12px;
+}
+.conteiner {
+	max-width: 700px;
+	margin: auto;
+}
+footer {
+	color: $color_1;
+	text-align: center;
+	img {
+		width: 2rem;
+		background-color: $background-color_4;
+		margin: 0 4px 0 4px;
+		margin-bottom: 10px;
+		padding: 2px;
+	}
+}
+.video-contenedor {
+	position: relative;
+	padding-bottom: 50%;
+	padding-top: 0px;
+	height: 0;
+	overflow: hidden;
+	iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+.conteinermp4 {
+	position: relative;
+	max-width: 600px;
+	margin: auto;
+	padding: 10px;
+}
+.lineavideo {
+	padding: 10px 30px 10px 30px;
+	top: 10px;
+	margin: auto;
+}
+.lineavideo2 {
+	background-color: $background-color_5;
+	height: 5px;
+	margin: auto;
+}
+.video {
+	padding: 10px;
+	h2 {
+		position: relative;
+		text-align: center;
+		font-size: 1rem;
+		color: $color_2;
+		margin-top: 70px;
+	}
+}
+.contenedordiscografia {
+	text-align: center;
+}
+.discografia {
+	display: inline-block;
+	font-size: 1rem;
+	color: $color_2;
+}
+.carousel.slide {
+	max-width: 400px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.carousel-caption {
+	a {
+		text-decoration: none;
+		color: $color_3;
+		h3 {
+			display: inline-block;
+			position: relative;
+			font-size: 12px;
+			margin-top: 7px;
+		}
+	}
+	p {
+		display: none;
+	}
+}
+.fondovideo {
+	background-image: linear-gradient(to bottom, rgba(238, 137, 6, 0.26) 50%, rgba(5, 5, 5, 0.89) 90%), url(../img/fondovideo.jpg);
+	margin-top: 5px;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;
+}
+.redeshtml {
+	img {
+		width: 50px;
+		padding: 5px;
+		background-color: $background-color_5;
+		border: 5px #f0911e solid;
+	}
+	display: inline-block;
+	text-align: center;
+	margin-top: 450px;
+	max-width: 370px;
+	h3 {
+		color: $color_2;
+	}
+}
+.Usuario {
+	max-width: 350px;
+	margin: auto;
+	padding: 0.8rem 0.8rem;
+	border: 10px #eca043 solid;
+	box-shadow: 10px 10px 10px white;
+	margin-top: 6rem;
+	margin-bottom: 3rem;
+	h2 {
+		text-align: center;
+		border-bottom: 5px black solid;
+		margin-bottom: 10px;
+		color: $color_2;
+	}
+	p {
+		text-align: center;
+	}
+}
+.insertar {
+	text-align: center;
+	display: block;
+	padding: 3px;
+	width: 100%;
+	border: 3px black solid;
+	margin-bottom: 10px;
+}
+.enviar {
+	width: 100%;
+	background-color: $background-color_3;
+	margin-bottom: 10px;
+	&:hover {
+		cursor: pointer;
+	}
+}
+.olvidaste {
+	position: relative;
+	top: 5px;
+	color: $color_2;
+}
+.crearcuenta {
+	color: $color_4;
+}
+.contenedordlavuelta {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: 100px;
+	padding: 10px;
+	margin: auto;
+	top: 35px;
+	background-color: $background-color_1;
+	margin-top: 40px;
+	text-align: center;
+}
+.lavuelta {
+	font-size: 1rem;
+	color: $color_2;
+	justify-content: center;
+	text-align: center;
+	margin: auto;
+}
+.musicahtml {
+	border: 0.7rem black solid;
+	padding: 20px;
+}
+.accordion-collapse.collapse {
+	justify-items: center;
+	margin: auto;
+}
+.accordion-body {
+	padding: 0;
+	h3 {
+		font-size: 1rem;
+	}
+	audio {
+		background-color: $background-color_6;
+		padding: 10px;
+		width: 100%;
+		outline: none;
+	}
+}
+.card {
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.card.uno {
+	background-color: $background-color_7;
+	margin: auto;
+	img {
+		border: 1rem #ffffff94 solid;
+	}
+}
+.mainbibliografia {
+	position: relative;
+	background-color: $background-color_8;
+	border-radius: 40px;
+	height: 400px;
+	margin: auto;
+	max-width: 50rem;
+}
+.conteinerresumen {
+	position: relative;
+	display: inline-block;
+	margin: auto;
+	min-width: 100px;
+}
+.tituloresumen {
+	display: inline-block;
+	position: absolute;
+	border-bottom: 4px black inset;
+	border-left: 4px black inset;
+	padding-left: 5px;
+	font-size: 28px;
+	font-family: $font-family_1;
+	color: $color_4;
+}
+.resumen {
+	display: inline-block;
+	position: relative;
+	width: 300px;
+	font-family: $font-family_1;
+	font-size: 20px;
+	color: $color_2;
+}
+.fotoresumen {
+	opacity: 85%;
+	max-width: 20rem;
+	position: relative;
+	bottom: 20rem;
+}
+
+
+	
